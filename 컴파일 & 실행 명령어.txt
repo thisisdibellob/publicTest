@@ -21,3 +21,15 @@ git switch 이름   //이름 브랜치로 이동
 git merge 합칠브랜치이름 
 
 //merge 충돌 시 원하는 코드코 수정 후 git add / git commit 하기
+
+//merge 완료된 브랜치는 삭제
+git branch -d 브랜치이름
+
+//merge 안한 브랜치 삭제
+git branch -D 브랜치명
+
+//새 브랜치가 중심 브랜치가 됨
+git rebase 중심브랜치명   //새브랜치로가서 해야됨
+
+//새브랜치가 메인 브랜치 합쳐짐, 근데 새브랜치 로그가 안 보이도록
+git merge --squash 새브랜치이름
