@@ -19,3 +19,5 @@ git switch 이름   //이름 브랜치로 이동
 
 //합치게 될 메인 브랜치로 가서
 git merge 합칠브랜치이름 
+
+//merge 충돌 시 원하는 코드코 수정 후 git add / git commit 하기
