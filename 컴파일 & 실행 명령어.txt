@@ -10,7 +10,12 @@ git commit -m '수정기록'   //파일 저장
 
 git add .   //모든 파일 추가
 git status   //상태창 보기
-git log --all --online   //commit한 내역 보기
+git log --all --oneline   //commit한 내역 보기
+git log --oneline --all --graph   //그래프로 보기
 
 git branch 이름 
 git switch 이름   //이름 브랜치로 이동
+
+
+//합치게 될 메인 브랜치로 가서
+git merge 합칠브랜치이름 
