@@ -1,0 +1,13 @@
+gcc hi01.c -o 2
+./2
+
+gcc 코드파일.c -o 만들파일
+./만들파일
+
+
+git add 파일이름   //파일 추가하겠다
+git commit -m '수정기록'   //파일 저장
+
+git add .   //모든 파일 추가
+git status   //상태창 보기
+git log --all --online   //commit한 내역 보기
