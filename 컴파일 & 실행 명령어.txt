@@ -33,3 +33,21 @@ git rebase 중심브랜치명   //새브랜치로가서 해야됨
 
 //새브랜치가 메인 브랜치 합쳐짐, 근데 새브랜치 로그가 안 보이도록
 git merge --squash 새브랜치이름
+
+//깃허브 연결
+git remote add origin 링크
+
+//깃허브 연결 확인용
+git remote -v
+
+//깃허브 연결 삭제
+git remote rm origin
+
+//푸쉬
+git push origin main(여긴 브랜치 이름)
+
+//풀
+git pull origin main
+
+//강제 병합 ㄱㄱ
+ git pull origin main --allow-unrelated-histories
